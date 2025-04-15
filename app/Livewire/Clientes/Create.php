@@ -16,7 +16,7 @@ class Create extends Component
 
     public function store()
     {
-        $cliente= Cliente::create([
+       Cliente::create([
             'nome' => $this->nome,
             'endereco' => $this->endereco,
             'telefone'=>$this->telefone,
